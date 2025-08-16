@@ -1,0 +1,35 @@
+{
+  "noOfFloors": 4,
+  "parkingTypeAvailable": [
+    {
+      "type": "TWO_WHEELER",
+      "noOfSpots": 50
+    },
+    {
+      "type": "LIGHT_WEIGHT",
+      "noOfSpots": 25
+    },
+    {
+      "type": "HEAVY_WEIGHT",
+      "noOfSpots": 20
+    }
+  ],
+  "pricingStrategy": {
+    "name": "Hourly",
+    "pricing": [
+      {
+        "vehicleType": "TWO_WHEELER",
+        "price": 20.0
+      },
+      {
+        "vehicleType": "LIGHT_WEIGHT",
+        "price": 40.0
+      },
+      {
+        "vehicleType": "HEAVY_WEIGHT",
+        "price": 80.0
+      }
+    ]
+  },
+  "parkingStrategy": "Default"
+}
